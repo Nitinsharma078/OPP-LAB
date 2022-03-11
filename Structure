@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+
+struct student
+{ char name[20];
+    char roll[15];
+    long long mobile;
+    int age;
+
+
+};
+
+
+int main()
+{
+      student SI;
+
+    cout<<"Enter student name"<<endl;
+    cin>>SI.name;
+    cout<<"Enter student roll number"<<endl;
+    cin>>SI.roll;
+    cout<<"Enter mobile number"<<endl;
+		cin>>SI.mobile;
+    cout<<"Enter student age"<<endl;
+    cin>>SI.age;
+    cout<<"               ";
+	cout<<SI.name<<endl;
+	cout<<SI.roll<<endl;
+	cout<<SI.age<<endl;
+	cout<<SI.mobile<<endl;
+	return 0;
+}
+
+
+   
+
+
+
+
+
+
+
+
