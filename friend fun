@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+class A{
+    int a;
+    friend void show(A a1);
+    public :
+
+    A(){
+        a=10;
+    }
+};
+void show(A a2){
+    cout<<"the value a ="<<a2.a;
+
+}
+int main(){
+    A a3;
+ show(a3);
+}
